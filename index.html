@@ -6,7 +6,7 @@
   <meta name="description" content="Oklandon Lawn Care provides professional lawn care, landscaping, and mowing services in Central Indiana. Enhance your outdoor spaces with expert maintenance and design." />
   <meta name="keywords" content="lawn care, landscaping, lawn maintenance, mowing, landscape design, Central Indiana, Oklandon Lawn Care" />
   <title>Oklandon Lawn Care | Lawn Care & Landscaping in Central Indiana</title>
-
+  
   <!-- Favicon -->
   <link rel="icon" href="https://ibb.co/vCtLRk0W/logo.jpg" type="image/jpeg" />
 
@@ -23,79 +23,63 @@
   <meta name="twitter:image" content="https://ibb.co/vCtLRk0W/logo.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
-  <!-- Swiper.js Styles -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-
   <style>
     /* General styles */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: url('https://ibb.co/cKgfp0q0/pexels-pixmike-413195.jpg') no-repeat center center fixed;
-      background-size: cover;
-      color: #ffffff;
-      font-weight: bold;
+      background-color: #333; /* Dark grey base */
+      background-image: url('https://www.transparenttextures.com/patterns/grass.png'); /* Grass texture */
+      color: #fff;
       position: relative;
-    }
-    /* Overlay for text readability */
-    .overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.4);
-      z-index: 1;
     }
     /* Header styles */
     header {
-      background: rgba(44, 62, 80, 0.8);
-      height: 300px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      background-color: #333;
       padding: 20px;
       text-align: center;
-      position: relative;
-      z-index: 2;
+    }
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
     }
     .services {
       font-size: 18px;
       line-height: 1.5;
-      text-align: center;
       width: 20%;
+      text-align: center;
     }
     .header-content {
+      width: 60%;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 10px;
-      width: 60%;
     }
     .header-logo {
       height: 120px;
       width: auto;
+      margin-bottom: 10px;
     }
     .header-title {
       font-size: 32px;
+      color: #28a745; /* Green accent */
     }
     /* Main content */
     main {
       padding: 20px;
       text-align: center;
-      position: relative;
-      z-index: 2;
     }
     main p {
       font-size: 24px;
-      line-height: 1.6;
       margin-bottom: 20px;
     }
     .cta-button {
-      background-color: #f39c12;
-      color: white;
+      background-color: #28a745;
+      color: #fff;
       padding: 15px 30px;
       border: none;
       border-radius: 8px;
@@ -105,37 +89,27 @@
       margin-top: 20px;
     }
     .cta-button:hover {
-      background-color: #d35400;
+      background-color: #218838;
     }
-    /* Swiper container styles */
-    .swiper {
-      width: 90%;
+    .project {
       margin: 20px auto;
+      text-align: center;
+    }
+    .project-image {
+      max-width: 90%;
       border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
     }
-    .swiper-slide {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .swiper-slide img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px;
-    }
     /* Footer styles */
     footer {
-      background-color: #2c3e50;
-      color: #ffffff;
+      background-color: #2c2c2c;
+      color: #fff;
       text-align: center;
       padding: 20px 10px;
-      border-top: 5px solid #f39c12;
-      position: relative;
-      z-index: 2;
+      border-top: 5px solid #28a745;
     }
     footer a {
-      color: #f39c12;
+      color: #28a745;
       text-decoration: none;
     }
     footer a:hover {
@@ -144,78 +118,48 @@
     /* Responsive styles */
     @media (max-width: 768px) {
       .services {
-        font-size: 16px;
-        width: 30%;
+        width: 100%;
+        margin-bottom: 10px;
       }
       .header-content {
-        width: 40%;
+        width: 100%;
       }
-      header {
-        flex-wrap: wrap;
+      .header-top {
+        flex-direction: column;
       }
     }
   </style>
 </head>
 <body>
-  <div class="overlay"></div>
   <header>
-    <div class="services left">
-      Mowing<br>
-      Trimming<br>
-      Edging
-    </div>
-    <div class="header-content">
-      <img class="header-logo" src="https://ibb.co/vCtLRk0W/logo.jpg" alt="Oklandon Lawn Care Logo" />
-      <div class="header-title">Oklandon Lawn Care</div>
-    </div>
-    <div class="services right">
-      Landscaping<br>
-      Design<br>
-      Maintenance
+    <div class="header-top">
+      <div class="services left">
+        Mowing<br>
+        Trimming<br>
+        Edging
+      </div>
+      <div class="header-content">
+        <img class="header-logo" src="https://ibb.co/vCtLRk0W/logo.jpg" alt="Oklandon Lawn Care Logo" />
+        <div class="header-title">Oklandon Lawn Care</div>
+      </div>
+      <div class="services right">
+        Landscaping<br>
+        Design<br>
+        Maintenance
+      </div>
     </div>
   </header>
   <main>
-    <p>Transform your lawn into a beautiful oasis with our expert care and design services.</p>
+    <p>Transform your lawn into a beautiful oasis with expert care and design.</p>
     <p>Call us today: <strong>+1 317-353-7508</strong></p>
     <button class="cta-button" onclick="window.location.href='tel:+13173537508'">Call Now</button>
-
-    <h2>Recent Projects</h2>
-    <div class="swiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <img src="https://i.ibb.co/TDhJ9K7V/pexels-pixabay-280222.jpg" alt="Recent Project 1" />
-        </div>
-        <!-- Duplicate slide for demonstration -->
-        <div class="swiper-slide">
-          <img src="https://i.ibb.co/TDhJ9K7V/pexels-pixabay-280222.jpg" alt="Recent Project 2" />
-        </div>
-      </div>
-      <!-- Pagination -->
-      <div class="swiper-pagination"></div>
-      <!-- Navigation buttons -->
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
+    <div class="project">
+      <img class="project-image" src="https://i.ibb.co/TDhJ9K7V/pexels-pixabay-280222.jpg" alt="Beautiful Lawn Project" />
     </div>
   </main>
   <footer>
     <p>&copy; 2025 Oklandon Lawn Care. All Rights Reserved.</p>
     <a href="https://www.facebook.com/search/top?q=oaklandon%20lawn%20care" target="_blank">Follow us on Facebook</a>
   </footer>
-
-  <!-- Swiper.js Script -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-  <script>
-    const swiper = new Swiper('.swiper', {
-      loop: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-  </script>
 </body>
 </html>
