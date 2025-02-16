@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Oaklandon Lawn Care offers professional lawn maintenance, landscaping, and mowing services in Central Indiana.">
+  <meta name="keywords" content="lawn care, landscaping, lawn maintenance, mowing, landscape design, Central Indiana, Oaklandon Lawn Care">
+  <meta property="og:title" content="Oaklandon Lawn Care - Professional Lawn Care & Landscaping">
+  <meta property="og:description" content="Expert lawn care, landscaping, and mowing services in Central Indiana.">
+  <meta property="og:image" content="https://ibb.co/vCtLRk0W/logo.jpg">
+  <meta property="og:url" content="https://yourwebsite.com">
+  <meta name="twitter:card" content="summary_large_image">
+  
+  <title>Oaklandon Lawn Care | Lawn Care & Landscaping in Central Indiana</title>
+  
+  <style>
+    /* Reset & Basic Styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: url('https://ibb.co/cKgfp0q0/pexels-pixmike-413195.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+      line-height: 1.6;
+    }
+    /* Header Styles */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      background: rgba(255, 255, 255, 0.9);
+    }
+    .logo img {
+      height: 60px;
+    }
+    .contact-info {
+      text-align: right;
+    }
+    .phone-number {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .call-button {
+      background-color: #28a745;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+      margin: 5px 0;
+      display: inline-block;
+    }
+    .social-links a {
+      margin-left: 10px;
+      text-decoration: none;
+      color: #4267B2;
+      font-size: 20px;
+    }
+    /* Hero Section */
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: calc(100vh - 80px);
+      text-align: center;
+      padding: 20px;
+    }
+    .text-box {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      margin: 10px;
+      border-radius: 8px;
+      max-width: 600px;
+    }
+    .text-box h1 {
+      margin-bottom: 10px;
+    }
+    .text-box h2 {
+      margin-bottom: 15px;
+      color: #28a745;
+    }
+    .visual-appeal {
+      margin: 20px auto;
+      max-width: 90%;
+      border-radius: 8px;
+    }
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      .contact-info {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header with Logo, Phone Number, Call Button & Facebook Link -->
+  <header>
+    <div class="logo">
+      <img src="https://ibb.co/vCtLRk0W/logo.jpg" alt="Oaklandon Lawn Care Logo">
+    </div>
+    <div class="contact-info">
+      <div class="phone-number">Call us: +1 317-353-7508</div>
+      <a href="tel:+13173537508" class="call-button">Call Now</a>
+      <div class="social-links">
+        <a href="https://www.facebook.com/YourPageName" target="_blank">Facebook</a>
+      </div>
+    </div>
+  </header>
+  
+  <!-- Hero Section with Marketing Text & Visual Appeal Image -->
+  <section class="hero">
+    <div class="text-box">
+      <h1>Oaklandon Lawn Care</h1>
+      <h2>Expert Lawn Care & Landscaping in Central Indiana</h2>
+      <p>
+        Transforming your outdoor spaces with quality lawn maintenance, creative landscape design, and exceptional service.
+        Let us bring your lawn to life!
+      </p>
+    </div>
+    <!-- Visual Appeal Image -->
+    <img src="https://i.ibb.co/TDhJ9K7V/pexels-pixabay-280222.jpg" alt="Beautiful Lawn" class="visual-appeal">
+  </section>
+</body>
+</html>
