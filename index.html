@@ -40,10 +40,10 @@
 
     /* Header styles */
     header {
-      background-color: #1a3c34; /* Dark green inspired by logo */
+      background-color: rgba(26, 60, 52, 0.85); /* Slightly transparent dark green */
       padding: 40px 20px;
       text-align: center;
-      border-bottom: 6px solid #28a745; /* Lighter green border */
+      border-bottom: 6px solid #28a745;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     }
     .header-top {
@@ -58,7 +58,7 @@
       text-align: center;
     }
     .header-logo {
-      height: 200px; /* Larger logo */
+      height: 200px;
       width: auto;
       transition: transform 0.3s ease;
     }
@@ -114,7 +114,7 @@
 
     /* Footer styles */
     footer {
-      background-color: #1a3c34; /* Matching header */
+      background-color: rgba(26, 60, 52, 0.85); /* Matching header transparency */
       color: #fff;
       text-align: center;
       padding: 20px 10px;
@@ -132,15 +132,18 @@
 
     /* Responsive styles */
     @media (max-width: 768px) {
+      header {
+        padding: 20px 10px; /* Reduced padding for shorter header */
+      }
       .header-top {
         flex-direction: column;
       }
       .services, .header-content {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
       }
       .header-logo {
-        height: 150px; /* Slightly smaller on mobile */
+        height: 120px; /* Smaller logo on mobile */
       }
       .services {
         font-size: 1.1rem;
