@@ -10,6 +10,10 @@
   <!-- Favicon -->
   <link rel="icon" href="https://i.ibb.co/jPCVbxB8/Oaklandonlawn.jpg" type="image/jpeg" />
 
+  <!-- Preload Critical Images -->
+  <link rel="preload" href="https://i.ibb.co/jPCVbxB8/Oaklandonlawn.jpg" as="image" />
+  <link rel="preload" href="https://i.ibb.co/LXXtPBd5/image-1.jpg" as="image" />
+
   <!-- Open Graph Meta Tags (Facebook) -->
   <meta property="og:title" content="Oaklandon Lawn Care - Central Indiana Lawn & Landscaping" />
   <meta property="og:description" content="Discover premier lawn care, landscaping, and mowing services with Oaklandon Lawn Care in Central Indiana. Expert yard maintenance and design for a stunning outdoor space." />
@@ -70,6 +74,7 @@
       padding: 0;
       background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.ibb.co/LXXtPBd5/image-1.jpg') no-repeat center center fixed;
       background-size: cover;
+      background-color: #2c2c2c; /* Fallback color while image loads */
       color: #fff;
       line-height: 1.6;
     }
@@ -151,6 +156,7 @@
       max-width: 100%;
       border-radius: 10px;
       box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+      loading: lazy; /* Lazy load this image */
     }
 
     /* Footer styles */
@@ -229,7 +235,7 @@
     <p>Call us today: <strong class="phone">+1 317-353-7508</strong></p>
     <button class="cta-button" onclick="window.location.href='tel:+13173537508'">Call Now</button>
     <div class="project">
-      <img class="project-image" src="https://i.ibb.co/TDhJ9K7V/pexels-pixabay-280222.jpg" alt="Beautiful Lawn Project in Central Indiana" />
+      <img class="project-image" src="https://i.ibb.co/TDhJ9K7V/pexels-pixabay-280222.jpg" alt="Beautiful Lawn Project in Central Indiana" loading="lazy" />
     </div>
   </main>
   <footer>
